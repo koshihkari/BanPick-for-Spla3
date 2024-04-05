@@ -83,7 +83,6 @@ function WeaponRow({weapon_row, kind, checkedArray, name, setCheckedArray}) {
   const weapons = weapon_row.map((weapon, index) => {
     let weapon_key = kind*100+index;
     let weapon_img_name = "w" + ("0000"+String(weapon_key)).slice(-4);
-    console.log("@/public/src/img/"+weapon_img_name+".png");
     if (checkedArray[kind][index]) {
       return (
         <div className="weapon_box" key={weapon_key}>
@@ -92,7 +91,7 @@ function WeaponRow({weapon_row, kind, checkedArray, name, setCheckedArray}) {
             alt="alternative_text_of_image"
             onClick={() => handleClickWeapon(kind, index)}>
           </img>
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             close
           </span>
         </div>
@@ -103,7 +102,6 @@ function WeaponRow({weapon_row, kind, checkedArray, name, setCheckedArray}) {
           <img
             src={"./img/"+weapon_img_name+".png"}
             alt="alternative_text_of_image"
-            // src={icon_name}
             onClick={() => handleClickWeapon(kind, index)}>
           </img>
         </div>

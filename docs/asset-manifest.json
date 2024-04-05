@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/banpick-for-Spla3/static/css/main.48b95284.css",
-    "main.js": "/banpick-for-Spla3/static/js/main.f53d634f.js",
+    "main.js": "/banpick-for-Spla3/static/js/main.89847759.js",
     "static/js/453.8837b07e.chunk.js": "/banpick-for-Spla3/static/js/453.8837b07e.chunk.js",
     "index.html": "/banpick-for-Spla3/index.html",
     "main.48b95284.css.map": "/banpick-for-Spla3/static/css/main.48b95284.css.map",
-    "main.f53d634f.js.map": "/banpick-for-Spla3/static/js/main.f53d634f.js.map",
+    "main.89847759.js.map": "/banpick-for-Spla3/static/js/main.89847759.js.map",
     "453.8837b07e.chunk.js.map": "/banpick-for-Spla3/static/js/453.8837b07e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48b95284.css",
-    "static/js/main.f53d634f.js"
+    "static/js/main.89847759.js"
   ]
 }

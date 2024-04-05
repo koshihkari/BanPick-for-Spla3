@@ -122,7 +122,7 @@ function WeaponRow({weapon_row, kind, checkedArray, name, setCheckedArray}) {
 
 export default function App() {
   let all_weapon = [];
-  const number_of_weapons = [14, 5, 6, 6, 6, 5, 3, 7, 3, 2, 2];
+  const number_of_weapons = [14, 5, 6, 6, 6, 6, 4, 7, 3, 2, 2];
 
   for (let i = 0; i < number_of_weapons.length; i++) {
     let l = []
